@@ -5,10 +5,6 @@
 -- Tabela 3 é o resultado do trabalho do pipeline. O Airflow lê as tabelas 1 e 2, faz as transformações
 -- (alinha datas, converte moeda, calcula métricas) e grava o resultado consolidado aqui.
 
-
-
-
-
 CREATE TABLE IF NOT EXISTS bcb_indicators (
     id              SERIAL          PRIMARY KEY,
     reference_date  DATE            NOT NULL,
@@ -70,4 +66,6 @@ CREATE TABLE IF NOT EXISTS pipeline_run_log (
     started_at      TIMESTAMP       NOT NULL,
     finished_at     TIMESTAMP
 );
+
+CREATE DATABASE airflow_db OWNER etl_user;
 

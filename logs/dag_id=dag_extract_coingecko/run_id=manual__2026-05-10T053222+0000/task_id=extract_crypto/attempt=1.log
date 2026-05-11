@@ -1,0 +1,17 @@
+[2026-05-10T05:32:31.286+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-05-10T05:32:31.370+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_extract_coingecko.extract_crypto manual__2026-05-10T05:32:22+00:00 [queued]>
+[2026-05-10T05:32:31.390+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_extract_coingecko.extract_crypto manual__2026-05-10T05:32:22+00:00 [queued]>
+[2026-05-10T05:32:31.391+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-05-10T05:32:31.423+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extract_crypto> on 2026-05-10 05:32:22+00:00
+[2026-05-10T05:32:31.437+0000] {standard_task_runner.py:64} INFO - Started process 665 to run task
+[2026-05-10T05:32:31.445+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dag_extract_coingecko', 'extract_crypto', 'manual__2026-05-10T05:32:22+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/dag_extract_coingecko.py', '--cfg-path', '/tmp/tmppm2tgsbo']
+[2026-05-10T05:32:31.449+0000] {standard_task_runner.py:91} INFO - Job 9: Subtask extract_crypto
+[2026-05-10T05:32:31.581+0000] {task_command.py:426} INFO - Running <TaskInstance: dag_extract_coingecko.extract_crypto manual__2026-05-10T05:32:22+00:00 [running]> on host cb4e72281494
+[2026-05-10T05:32:31.891+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='dag_extract_coingecko' AIRFLOW_CTX_TASK_ID='extract_crypto' AIRFLOW_CTX_EXECUTION_DATE='2026-05-10T05:32:22+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-10T05:32:22+00:00'
+[2026-05-10T05:32:31.895+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-05-10T05:32:33.952+0000] {python.py:237} INFO - Done. Returned value was: 1460
+[2026-05-10T05:32:33.954+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-05-10T05:32:34.036+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=dag_extract_coingecko, task_id=extract_crypto, run_id=manual__2026-05-10T05:32:22+00:00, execution_date=20260510T053222, start_date=20260510T053231, end_date=20260510T053234
+[2026-05-10T05:32:34.120+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-05-10T05:32:34.185+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-10T05:32:34.192+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

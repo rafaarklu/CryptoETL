@@ -181,29 +181,24 @@ Tabela principal para análises. Resultado do join e transformação das duas ta
 ## Estrutura do Projeto
 
 ```
-pipeline-macro-cripto/
-│
-├── dags/                        # DAGs do Airflow
-│   ├── dag_extract_bcb.py       # Extração do Banco Central
-│   ├── dag_extract_coingecko.py # Extração do CoinGecko
-│   └── dag_consolidate.py       # Transformação e carga na tabela gold
-│
-├── src/                         # Módulos Python
+CryptoETL/
+├── dags/
+│   ├── dag_extract_bcb.py
+│   ├── dag_extract_coingecko.py
+│   └── dag_consolidate.py
+├── src/
 │   ├── extractors/
-│   │   ├── bcb.py               # Cliente da API do BCB
-│   │   └── coingecko.py         # Cliente da API do CoinGecko
 │   ├── transformers/
-│   │   ├── bcb_transformer.py   # Limpeza e transformação BCB
-│   │   └── crypto_transformer.py
-│   └── loaders/
-│       └── postgres.py          # Funções de carga no PostgreSQL
-│
-├── sql/
-│   └── schema.sql               # DDL completo do banco de dados
-│
-├── docker-compose.yml           # PostgreSQL + Airflow
+│   ├── loaders/
+│   ├── pipelines/
+│   ├── settings.py
+│   └── main.py
+├── db/
+│   └── init.sql
+├── docker-compose.yml
+├── dockerfile
 ├── requirements.txt
-└── README.md
+└── .env.example
 ```
 
 ---
@@ -222,30 +217,40 @@ git clone https://github.com/seu-usuario/pipeline-macro-cripto.git
 cd pipeline-macro-cripto
 ```
 
-### 2. Subir os containers
+### 2. Configurar variáveis de ambiente
+
+Copie `.env.example` para `.env` e ajuste se precisar.
+
+### 3. Subir os containers
 
 ```bash
-docker-compose up -d
-```
-
-### 3. Criar as tabelas no banco
-
-```bash
-docker exec -i postgres psql -U airflow -d pipeline_db < sql/schema.sql
+docker compose up -d postgres airflow-init airflow-webserver airflow-scheduler
 ```
 
 ### 4. Acessar o Airflow
 
-Abrir `http://localhost:8080` no navegador.
+Abra `http://localhost:8080` no navegador.
 Credenciais padrão: `airflow / airflow`
 
 ### 5. Ativar as DAGs
 
-Na interface do Airflow, ativar as DAGs na seguinte ordem:
+Na interface do Airflow, ative as DAGs nesta ordem:
 
 1. `dag_extract_bcb`
 2. `dag_extract_coingecko`
 3. `dag_consolidate`
+
+### 6. Rodar a pipeline localmente sem Airflow
+
+```bash
+python -m src.main all
+```
+
+Ou, pelo container:
+
+```bash
+docker compose --profile tools run --rm etl-cli
+```
 
 ---
 
@@ -257,3 +262,9 @@ Com a tabela `daily_consolidated` populada, as principais análises planejadas s
 - **SELIC × Volatilidade cripto** — períodos de juros altos tendem a reduzir exposição a ativos de risco?
 - **IPCA × Mercado cripto** — criptomoedas funcionam como hedge contra inflação no Brasil?
 - **Comparativo entre ativos** — qual dos 4 ativos apresentou maior correlação com os indicadores macro no período?
+
+## Observações Técnicas
+
+- As cargas usam `UPSERT` com chave única para manter idempotência.
+- O schema do banco é criado automaticamente pelo arquivo `db/init.sql` na inicialização do Postgres.
+- O Airflow roda com `LocalExecutor` para simplificar a execução local do trabalho.

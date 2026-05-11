@@ -1,0 +1,406 @@
+[2026-05-11T02:42:31.874+0000] {processor.py:161} INFO - Started process (PID=166) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:42:31.883+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:42:31.905+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:42:31.898+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:42:35.884+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:42:36.464+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:42:36.463+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:42:36.520+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:42:36.520+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:42:36.591+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 4.739 seconds
+[2026-05-11T02:43:07.713+0000] {processor.py:161} INFO - Started process (PID=194) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:43:07.716+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:43:07.726+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:43:07.725+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:43:09.237+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:43:09.301+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:43:09.300+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:43:09.365+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:43:09.364+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:43:09.440+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.744 seconds
+[2026-05-11T02:43:40.069+0000] {processor.py:161} INFO - Started process (PID=212) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:43:40.073+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:43:40.079+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:43:40.079+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:43:41.727+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:43:41.781+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:43:41.781+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:43:41.830+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:43:41.830+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:43:41.869+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.819 seconds
+[2026-05-11T02:44:12.593+0000] {processor.py:161} INFO - Started process (PID=230) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:44:12.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:44:12.601+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:44:12.600+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:44:13.950+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:44:14.030+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:44:14.030+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:44:14.094+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:44:14.094+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:44:14.153+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.578 seconds
+[2026-05-11T02:44:44.572+0000] {processor.py:161} INFO - Started process (PID=248) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:44:44.580+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:44:44.589+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:44:44.588+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:44:45.956+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:44:46.041+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:44:46.040+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:44:46.110+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:44:46.110+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:44:46.162+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.630 seconds
+[2026-05-11T02:45:16.998+0000] {processor.py:161} INFO - Started process (PID=267) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:45:17.000+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:45:17.005+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:45:17.004+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:45:18.333+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:45:18.368+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:45:18.368+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:45:18.399+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:45:18.399+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:45:18.448+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.467 seconds
+[2026-05-11T02:45:49.285+0000] {processor.py:161} INFO - Started process (PID=285) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:45:49.288+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:45:49.293+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:45:49.292+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:45:50.589+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:45:50.632+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:45:50.632+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:45:50.678+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:45:50.678+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:45:50.735+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.463 seconds
+[2026-05-11T02:46:21.257+0000] {processor.py:161} INFO - Started process (PID=303) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:46:21.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:46:21.270+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:46:21.269+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:46:22.930+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:46:23.017+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:46:23.016+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:46:23.092+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:46:23.091+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:46:23.158+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.929 seconds
+[2026-05-11T02:46:54.164+0000] {processor.py:161} INFO - Started process (PID=321) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:46:54.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:46:54.170+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:46:54.170+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:46:56.157+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:46:56.222+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:46:56.221+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:46:56.270+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:46:56.269+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:46:56.312+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 2.162 seconds
+[2026-05-11T02:47:27.148+0000] {processor.py:161} INFO - Started process (PID=339) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:47:27.152+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:47:27.157+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:47:27.155+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:47:28.701+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:47:28.761+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:47:28.761+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:47:28.805+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:47:28.804+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:47:28.846+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.712 seconds
+[2026-05-11T02:47:59.933+0000] {processor.py:161} INFO - Started process (PID=357) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:47:59.943+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:47:59.953+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:47:59.952+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:48:02.530+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:48:02.611+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:48:02.610+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:48:02.666+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:48:02.665+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:48:02.724+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 2.832 seconds
+[2026-05-11T02:48:33.351+0000] {processor.py:161} INFO - Started process (PID=375) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:48:33.356+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:48:33.360+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:48:33.359+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:48:34.845+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:48:34.913+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:48:34.912+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:48:34.979+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:48:34.979+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:48:35.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.695 seconds
+[2026-05-11T02:49:05.917+0000] {processor.py:161} INFO - Started process (PID=393) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:49:05.919+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:49:05.924+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:49:05.924+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:49:07.011+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:49:07.076+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:49:07.076+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:49:07.127+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:49:07.127+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:49:07.170+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.265 seconds
+[2026-05-11T02:49:37.788+0000] {processor.py:161} INFO - Started process (PID=411) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:49:37.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:49:37.797+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:49:37.796+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:49:38.819+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:49:38.869+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:49:38.868+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:49:38.916+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:49:38.916+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:49:38.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.197 seconds
+[2026-05-11T02:50:09.841+0000] {processor.py:161} INFO - Started process (PID=429) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:50:09.844+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:50:09.849+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:50:09.848+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:50:11.797+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:50:11.849+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:50:11.849+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:50:11.887+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:50:11.886+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:50:11.922+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 2.093 seconds
+[2026-05-11T02:50:42.467+0000] {processor.py:161} INFO - Started process (PID=449) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:50:42.475+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:50:42.482+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:50:42.481+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:50:43.781+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:50:43.833+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:50:43.833+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:50:43.877+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:50:43.876+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:50:43.908+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.519 seconds
+[2026-05-11T02:51:14.242+0000] {processor.py:161} INFO - Started process (PID=467) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:51:14.246+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:51:14.252+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:51:14.251+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:51:15.434+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:51:15.487+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:51:15.486+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:51:15.589+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:51:15.588+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:51:15.630+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.414 seconds
+[2026-05-11T02:51:45.740+0000] {processor.py:161} INFO - Started process (PID=483) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:51:45.742+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:51:45.746+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:51:45.746+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:51:47.017+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:51:47.104+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:51:47.103+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:51:47.185+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:51:47.184+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:51:47.247+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.523 seconds
+[2026-05-11T02:52:18.171+0000] {processor.py:161} INFO - Started process (PID=503) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:52:18.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:52:18.183+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:52:18.181+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:52:19.317+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:52:19.455+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:52:19.454+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:52:19.509+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:52:19.509+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:52:19.539+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.411 seconds
+[2026-05-11T02:52:49.716+0000] {processor.py:161} INFO - Started process (PID=519) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:52:49.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:52:49.722+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:52:49.722+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:52:50.502+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:52:50.549+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:52:50.548+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:52:50.584+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:52:50.584+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:52:50.618+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 0.914 seconds
+[2026-05-11T02:53:20.909+0000] {processor.py:161} INFO - Started process (PID=537) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:53:20.910+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:53:20.914+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:53:20.913+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:53:21.829+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:53:21.873+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:53:21.872+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:53:21.909+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:53:21.909+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:53:21.942+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.043 seconds
+[2026-05-11T02:53:52.694+0000] {processor.py:161} INFO - Started process (PID=555) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:53:52.696+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:53:52.699+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:53:52.699+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:53:53.752+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:53:53.818+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:53:53.817+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:53:53.857+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:53:53.856+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:53:53.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.207 seconds
+[2026-05-11T02:54:24.070+0000] {processor.py:161} INFO - Started process (PID=573) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:54:24.072+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:54:24.076+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:54:24.076+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:54:25.639+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:54:25.704+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:54:25.703+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:54:25.756+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:54:25.755+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:54:25.809+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.751 seconds
+[2026-05-11T02:54:55.975+0000] {processor.py:161} INFO - Started process (PID=590) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:54:55.978+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:54:55.985+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:54:55.984+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:54:56.913+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:54:56.991+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:54:56.990+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:54:57.095+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:54:57.095+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:54:57.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.177 seconds
+[2026-05-11T02:55:27.949+0000] {processor.py:161} INFO - Started process (PID=609) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:55:27.956+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:55:27.963+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:55:27.962+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:55:29.048+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:55:29.173+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:55:29.172+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:55:29.253+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:55:29.252+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:55:29.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.425 seconds
+[2026-05-11T02:55:59.541+0000] {processor.py:161} INFO - Started process (PID=627) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:55:59.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:55:59.548+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:55:59.548+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:56:00.656+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:56:00.715+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:56:00.714+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:56:00.769+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:56:00.769+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:56:00.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.369 seconds
+[2026-05-11T02:56:31.322+0000] {processor.py:161} INFO - Started process (PID=644) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:56:31.325+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:56:31.330+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:56:31.329+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:56:32.521+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:56:32.593+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:56:32.592+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:56:32.664+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:56:32.663+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:56:32.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.453 seconds
+[2026-05-11T02:57:03.218+0000] {processor.py:161} INFO - Started process (PID=662) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:57:03.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:57:03.223+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:57:03.222+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:57:04.169+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:57:04.230+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:57:04.229+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:57:04.286+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:57:04.286+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:57:04.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.134 seconds
+[2026-05-11T02:57:34.700+0000] {processor.py:161} INFO - Started process (PID=680) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:57:34.705+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:57:34.713+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:57:34.711+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:57:36.177+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:57:36.316+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:57:36.315+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:57:36.417+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:57:36.416+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:57:36.500+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.826 seconds
+[2026-05-11T02:58:07.608+0000] {processor.py:161} INFO - Started process (PID=698) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:58:07.610+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:58:07.614+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:58:07.613+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:58:08.668+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:58:08.722+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:58:08.721+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:58:08.767+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:58:08.766+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:58:08.808+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.234 seconds
+[2026-05-11T02:58:39.075+0000] {processor.py:161} INFO - Started process (PID=716) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:58:39.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:58:39.092+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:58:39.090+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:58:40.376+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:58:40.440+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:58:40.439+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:58:40.499+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:58:40.499+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:58:40.548+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.504 seconds
+[2026-05-11T02:59:11.473+0000] {processor.py:161} INFO - Started process (PID=734) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:59:11.478+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:59:11.488+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:59:11.487+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:59:12.812+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:59:12.902+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:59:12.901+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:59:12.968+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:59:12.967+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:59:13.015+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.566 seconds
+[2026-05-11T02:59:44.052+0000] {processor.py:161} INFO - Started process (PID=752) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:59:44.054+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T02:59:44.058+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:59:44.057+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:59:45.300+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T02:59:45.403+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:59:45.402+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T02:59:45.463+0000] {logging_mixin.py:188} INFO - [2026-05-11T02:59:45.462+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T02:59:45.509+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.471 seconds
+[2026-05-11T03:00:16.669+0000] {processor.py:161} INFO - Started process (PID=770) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:00:16.675+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:00:16.684+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:00:16.683+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:00:17.926+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:00:18.008+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:00:18.007+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:00:18.075+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:00:18.074+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:00:18.107+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.474 seconds
+[2026-05-11T03:00:48.486+0000] {processor.py:161} INFO - Started process (PID=788) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:00:48.489+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:00:48.492+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:00:48.491+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:00:49.406+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:00:49.483+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:00:49.482+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:00:49.541+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:00:49.540+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:00:49.596+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.122 seconds
+[2026-05-11T03:01:19.952+0000] {processor.py:161} INFO - Started process (PID=806) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:01:19.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:01:19.961+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:01:19.959+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:01:21.050+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:01:21.134+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:01:21.133+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:01:21.205+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:01:21.204+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:01:21.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.332 seconds
+[2026-05-11T03:01:52.108+0000] {processor.py:161} INFO - Started process (PID=824) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:01:52.110+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:01:52.114+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:01:52.113+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:01:53.165+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:01:53.232+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:01:53.232+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:01:53.297+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:01:53.297+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:01:53.340+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.263 seconds
+[2026-05-11T03:02:24.214+0000] {processor.py:161} INFO - Started process (PID=842) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:02:24.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:02:24.219+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:02:24.219+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:02:24.860+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:02:24.908+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:02:24.907+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:02:24.950+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:02:24.949+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:02:24.997+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 0.793 seconds
+[2026-05-11T03:02:55.408+0000] {processor.py:161} INFO - Started process (PID=860) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:02:55.410+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:02:55.414+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:02:55.413+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:02:56.114+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:02:56.173+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:02:56.172+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:02:56.217+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:02:56.217+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:02:56.270+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 0.873 seconds
+[2026-05-11T03:03:26.872+0000] {processor.py:161} INFO - Started process (PID=878) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:03:26.875+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:03:26.883+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:03:26.882+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:03:27.835+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:03:27.908+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:03:27.908+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:03:27.945+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:03:27.944+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:03:27.979+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.154 seconds
+[2026-05-11T03:03:58.585+0000] {processor.py:161} INFO - Started process (PID=896) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:03:58.588+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:03:58.594+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:03:58.593+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:03:59.493+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:03:59.552+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:03:59.552+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:03:59.601+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:03:59.601+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:03:59.644+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.085 seconds
+[2026-05-11T03:04:30.041+0000] {processor.py:161} INFO - Started process (PID=914) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:04:30.045+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:04:30.054+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:04:30.053+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:04:31.031+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:04:31.104+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:04:31.103+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:04:31.170+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:04:31.170+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:04:31.222+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.207 seconds
+[2026-05-11T03:05:02.191+0000] {processor.py:161} INFO - Started process (PID=932) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:05:02.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:05:02.199+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:05:02.198+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:05:03.002+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:05:03.048+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:05:03.047+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:05:03.089+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:05:03.089+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:05:03.122+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 0.948 seconds
+[2026-05-11T03:05:34.073+0000] {processor.py:161} INFO - Started process (PID=950) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:05:34.075+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:05:34.080+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:05:34.079+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:05:34.875+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:05:34.959+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:05:34.958+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:05:35.026+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:05:35.025+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:05:35.080+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.023 seconds
+[2026-05-11T03:06:05.535+0000] {processor.py:161} INFO - Started process (PID=968) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:06:05.542+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:06:05.558+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:06:05.555+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:06:06.691+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:06:06.734+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:06:06.734+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:06:06.772+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:06:06.771+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:06:06.807+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.319 seconds
+[2026-05-11T03:06:37.372+0000] {processor.py:161} INFO - Started process (PID=986) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:06:37.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:06:37.384+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:06:37.383+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:06:38.493+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:06:38.540+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:06:38.539+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:06:38.585+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:06:38.585+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:06:38.648+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.301 seconds
+[2026-05-11T03:07:09.016+0000] {processor.py:161} INFO - Started process (PID=1004) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:07:09.021+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:07:09.029+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:07:09.027+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:07:10.062+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:07:10.110+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:07:10.109+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:07:10.158+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:07:10.158+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:07:10.209+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.219 seconds
+[2026-05-11T03:07:40.640+0000] {processor.py:161} INFO - Started process (PID=1022) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:07:40.642+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:07:40.646+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:07:40.645+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:07:41.542+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:07:41.602+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:07:41.601+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:07:41.676+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:07:41.675+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:07:41.733+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.107 seconds
+[2026-05-11T03:08:12.767+0000] {processor.py:161} INFO - Started process (PID=1040) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:08:12.770+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:08:12.775+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:08:12.774+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:08:13.627+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:08:13.715+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:08:13.714+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:08:13.783+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:08:13.782+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:08:13.839+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.085 seconds
+[2026-05-11T03:08:44.535+0000] {processor.py:161} INFO - Started process (PID=1058) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:08:44.537+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:08:44.542+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:08:44.542+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:08:45.519+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:08:45.616+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:08:45.614+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:08:45.681+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:08:45.681+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:08:45.737+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.221 seconds
+[2026-05-11T03:09:16.022+0000] {processor.py:161} INFO - Started process (PID=1076) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:09:16.024+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:09:16.029+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:09:16.028+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:09:16.822+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:09:16.875+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:09:16.874+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:09:16.918+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:09:16.918+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:09:16.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 0.941 seconds
+[2026-05-11T03:09:47.837+0000] {processor.py:161} INFO - Started process (PID=1094) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:09:47.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:09:47.850+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:09:47.849+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:09:49.041+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:09:49.101+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:09:49.100+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:09:49.153+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:09:49.153+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:09:49.194+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.379 seconds
+[2026-05-11T03:10:19.680+0000] {processor.py:161} INFO - Started process (PID=1112) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:10:19.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:10:19.695+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:10:19.693+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:10:21.109+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:10:21.156+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:10:21.156+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:10:21.214+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:10:21.213+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:10:21.264+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.609 seconds
+[2026-05-11T03:10:52.105+0000] {processor.py:161} INFO - Started process (PID=1130) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:10:52.109+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:10:52.119+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:10:52.118+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:10:53.121+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:10:53.168+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:10:53.168+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:10:53.210+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:10:53.209+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:10:53.256+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.184 seconds
+[2026-05-11T03:11:23.401+0000] {processor.py:161} INFO - Started process (PID=1148) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:11:23.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:11:23.406+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:11:23.405+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:11:24.065+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:11:24.110+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:11:24.109+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:11:24.159+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:11:24.159+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:11:24.211+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 0.821 seconds
+[2026-05-11T03:11:54.718+0000] {processor.py:161} INFO - Started process (PID=1166) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:11:54.721+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:11:54.726+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:11:54.725+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:11:55.655+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:11:55.699+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:11:55.699+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:11:55.735+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:11:55.735+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:11:55.771+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.075 seconds
+[2026-05-11T03:12:26.167+0000] {processor.py:161} INFO - Started process (PID=1184) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:12:26.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:12:26.185+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:12:26.183+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:12:27.599+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:12:27.659+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:12:27.658+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:12:27.712+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:12:27.712+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:12:27.759+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.622 seconds
+[2026-05-11T03:12:58.053+0000] {processor.py:161} INFO - Started process (PID=1202) to work on /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:12:58.057+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_coingecko.py for tasks to queue
+[2026-05-11T03:12:58.065+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:12:58.063+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:12:59.073+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_coingecko' retrieved from /opt/airflow/dags/dag_extract_coingecko.py
+[2026-05-11T03:12:59.124+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:12:59.124+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-11T03:12:59.166+0000] {logging_mixin.py:188} INFO - [2026-05-11T03:12:59.166+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_coingecko to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T03:12:59.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_coingecko.py took 1.175 seconds

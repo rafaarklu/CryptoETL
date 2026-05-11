@@ -1,0 +1,403 @@
+[2026-05-10T05:18:23.688+0000] {processor.py:161} INFO - Started process (PID=175) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:18:23.690+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:18:23.694+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:18:23.693+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:18:23.742+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:18:23.731+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_extract_bcb.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_extract_bcb.py", line 8, in <module>
+    from src.pipelines.run_pipeline import run_bcb_extraction
+ModuleNotFoundError: No module named 'src'
+[2026-05-10T05:18:23.744+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:18:23.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 0.132 seconds
+[2026-05-10T05:18:54.450+0000] {processor.py:161} INFO - Started process (PID=188) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:18:54.452+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:18:54.456+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:18:54.455+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:18:54.499+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:18:54.488+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_extract_bcb.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_extract_bcb.py", line 8, in <module>
+    from src.pipelines.run_pipeline import run_bcb_extraction
+ModuleNotFoundError: No module named 'src'
+[2026-05-10T05:18:54.503+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:18:54.559+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 0.119 seconds
+[2026-05-10T05:19:25.768+0000] {processor.py:161} INFO - Started process (PID=205) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:19:25.771+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:19:25.781+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:19:25.780+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:19:25.871+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:19:25.855+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_extract_bcb.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_extract_bcb.py", line 8, in <module>
+    from src.pipelines.run_pipeline import run_bcb_extraction
+ModuleNotFoundError: No module named 'src'
+[2026-05-10T05:19:25.878+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:19:25.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 0.204 seconds
+[2026-05-10T05:19:56.290+0000] {processor.py:161} INFO - Started process (PID=218) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:19:56.295+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:19:56.310+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:19:56.306+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:19:56.416+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:19:56.387+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_extract_bcb.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_extract_bcb.py", line 8, in <module>
+    from src.pipelines.run_pipeline import run_bcb_extraction
+ModuleNotFoundError: No module named 'src'
+[2026-05-10T05:19:56.427+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:19:56.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 0.340 seconds
+[2026-05-10T05:20:26.954+0000] {processor.py:161} INFO - Started process (PID=233) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:20:26.958+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:20:26.969+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:20:26.967+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:20:27.058+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:20:27.039+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_extract_bcb.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_extract_bcb.py", line 8, in <module>
+    from src.pipelines.run_pipeline import run_bcb_extraction
+ModuleNotFoundError: No module named 'src'
+[2026-05-10T05:20:27.067+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:20:27.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 0.267 seconds
+[2026-05-10T05:20:57.690+0000] {processor.py:161} INFO - Started process (PID=248) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:20:57.694+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:20:57.702+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:20:57.700+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:20:57.772+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:20:57.757+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_extract_bcb.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_extract_bcb.py", line 8, in <module>
+    from src.pipelines.run_pipeline import run_bcb_extraction
+ModuleNotFoundError: No module named 'src'
+[2026-05-10T05:20:57.777+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:20:57.837+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 0.170 seconds
+[2026-05-10T05:21:28.711+0000] {processor.py:161} INFO - Started process (PID=265) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:21:28.713+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:21:28.718+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:21:28.717+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:21:28.782+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:21:28.768+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_extract_bcb.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_extract_bcb.py", line 8, in <module>
+    from src.pipelines.run_pipeline import run_bcb_extraction
+ModuleNotFoundError: No module named 'src'
+[2026-05-10T05:21:28.789+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:21:28.876+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 0.175 seconds
+[2026-05-10T05:21:59.145+0000] {processor.py:161} INFO - Started process (PID=280) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:21:59.148+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:21:59.153+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:21:59.152+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:21:59.192+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:21:59.185+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_extract_bcb.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_extract_bcb.py", line 8, in <module>
+    from src.pipelines.run_pipeline import run_bcb_extraction
+ModuleNotFoundError: No module named 'src'
+[2026-05-10T05:21:59.195+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:21:59.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 0.122 seconds
+[2026-05-10T05:22:29.443+0000] {processor.py:161} INFO - Started process (PID=295) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:22:29.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:22:29.449+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:22:29.448+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:22:29.492+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:22:29.485+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_extract_bcb.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_extract_bcb.py", line 8, in <module>
+    from src.pipelines.run_pipeline import run_bcb_extraction
+ModuleNotFoundError: No module named 'src'
+[2026-05-10T05:22:29.496+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:22:29.546+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 0.117 seconds
+[2026-05-10T05:22:39.382+0000] {processor.py:161} INFO - Started process (PID=312) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:22:39.385+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:22:39.391+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:22:39.390+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:22:41.298+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:22:41.514+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:22:41.513+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:dag_extract_bcb
+[2026-05-10T05:22:41.547+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:22:41.546+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:dag_extract_bcb
+[2026-05-10T05:22:41.569+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:22:41.568+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:dag_extract_bcb
+[2026-05-10T05:22:41.572+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:22:41.570+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:22:41.606+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:22:41.605+0000] {dag.py:3111} INFO - Creating ORM DAG for dag_extract_bcb
+[2026-05-10T05:22:41.641+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:22:41.640+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T05:22:41.700+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 2.337 seconds
+[2026-05-10T05:23:12.376+0000] {processor.py:161} INFO - Started process (PID=330) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:23:12.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:23:12.384+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:23:12.383+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:23:13.855+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:23:13.932+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:23:13.931+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:23:13.998+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:23:13.997+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T05:23:14.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.713 seconds
+[2026-05-10T05:23:44.563+0000] {processor.py:161} INFO - Started process (PID=348) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:23:44.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:23:44.582+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:23:44.581+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:23:46.477+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:23:46.539+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:23:46.538+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:23:46.598+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:23:46.597+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T05:23:46.668+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 2.203 seconds
+[2026-05-10T05:24:17.187+0000] {processor.py:161} INFO - Started process (PID=366) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:24:17.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:24:17.208+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:24:17.206+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:24:18.860+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:24:18.944+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:24:18.944+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:24:19.013+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:24:19.012+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T05:24:19.069+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.931 seconds
+[2026-05-10T05:24:50.141+0000] {processor.py:161} INFO - Started process (PID=384) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:24:50.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:24:50.153+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:24:50.151+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:24:51.782+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:24:51.862+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:24:51.861+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:24:51.930+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:24:51.929+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T05:24:51.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.878 seconds
+[2026-05-10T05:25:22.104+0000] {processor.py:161} INFO - Started process (PID=402) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:25:22.108+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:25:22.113+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:25:22.111+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:25:23.533+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:25:23.620+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:25:23.619+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:25:23.683+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:25:23.682+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T05:25:23.737+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.643 seconds
+[2026-05-10T05:25:53.959+0000] {processor.py:161} INFO - Started process (PID=420) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:25:53.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:25:53.964+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:25:53.963+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:25:56.009+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:25:56.086+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:25:56.085+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:25:56.177+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:25:56.177+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T05:25:56.261+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 2.320 seconds
+[2026-05-10T05:26:26.555+0000] {processor.py:161} INFO - Started process (PID=438) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:26:26.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:26:26.574+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:26:26.573+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:26:28.880+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:26:29.001+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:26:29.000+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:26:29.047+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:26:29.046+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T05:26:29.092+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 2.572 seconds
+[2026-05-10T05:26:59.469+0000] {processor.py:161} INFO - Started process (PID=456) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:26:59.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:26:59.475+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:26:59.474+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:27:00.877+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:27:00.949+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:27:00.948+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:27:01.011+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:27:01.010+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T05:27:01.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.616 seconds
+[2026-05-10T05:27:32.076+0000] {processor.py:161} INFO - Started process (PID=480) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:27:32.079+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:27:32.084+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:27:32.083+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:27:33.302+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:27:33.358+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:27:33.357+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:27:33.402+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:27:33.401+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:27:33.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.380 seconds
+[2026-05-10T05:28:04.134+0000] {processor.py:161} INFO - Started process (PID=507) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:28:04.137+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:28:04.142+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:28:04.141+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:28:05.509+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:28:05.572+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:28:05.570+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:28:05.615+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:28:05.615+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:28:05.663+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.550 seconds
+[2026-05-10T05:28:36.358+0000] {processor.py:161} INFO - Started process (PID=531) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:28:36.362+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:28:36.368+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:28:36.366+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:28:37.664+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:28:37.742+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:28:37.741+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:28:37.784+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:28:37.783+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:28:37.826+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.496 seconds
+[2026-05-10T05:29:08.202+0000] {processor.py:161} INFO - Started process (PID=549) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:29:08.204+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:29:08.208+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:29:08.207+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:29:09.555+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:29:09.656+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:29:09.653+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:29:09.763+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:29:09.762+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:29:09.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.668 seconds
+[2026-05-10T05:29:40.322+0000] {processor.py:161} INFO - Started process (PID=567) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:29:40.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:29:40.334+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:29:40.331+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:29:42.214+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:29:42.363+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:29:42.362+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:29:42.498+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:29:42.497+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:29:42.573+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 2.279 seconds
+[2026-05-10T05:30:12.774+0000] {processor.py:161} INFO - Started process (PID=585) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:30:12.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:30:12.786+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:30:12.785+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:30:14.018+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:30:14.074+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:30:14.074+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:30:14.116+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:30:14.116+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:30:14.174+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.418 seconds
+[2026-05-10T05:30:45.037+0000] {processor.py:161} INFO - Started process (PID=603) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:30:45.041+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:30:45.049+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:30:45.048+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:30:46.264+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:30:46.326+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:30:46.325+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:30:46.376+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:30:46.376+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:30:46.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.423 seconds
+[2026-05-10T05:31:16.631+0000] {processor.py:161} INFO - Started process (PID=621) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:31:16.635+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:31:16.645+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:31:16.643+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:31:18.216+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:31:18.291+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:31:18.290+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:31:18.356+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:31:18.355+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:31:18.398+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.800 seconds
+[2026-05-10T05:31:48.696+0000] {processor.py:161} INFO - Started process (PID=639) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:31:48.698+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:31:48.704+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:31:48.703+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:31:50.097+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:31:50.215+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:31:50.214+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:31:50.359+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:31:50.357+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:31:50.465+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.786 seconds
+[2026-05-10T05:32:20.883+0000] {processor.py:161} INFO - Started process (PID=657) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:32:20.890+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:32:20.902+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:32:20.900+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:32:22.118+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:32:22.176+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:32:22.176+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:32:22.252+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:32:22.251+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:32:22.361+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.525 seconds
+[2026-05-10T05:32:52.600+0000] {processor.py:161} INFO - Started process (PID=676) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:32:52.603+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:32:52.607+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:32:52.606+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:32:53.975+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:32:54.058+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:32:54.057+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:32:54.161+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:32:54.160+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:32:54.243+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.655 seconds
+[2026-05-10T05:33:25.184+0000] {processor.py:161} INFO - Started process (PID=696) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:33:25.189+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:33:25.197+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:33:25.196+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:33:26.650+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:33:26.731+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:33:26.730+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:33:26.805+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:33:26.804+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:33:26.876+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.727 seconds
+[2026-05-10T05:33:57.103+0000] {processor.py:161} INFO - Started process (PID=714) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:33:57.110+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:33:57.125+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:33:57.123+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:33:58.847+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:33:58.903+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:33:58.903+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:33:58.942+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:33:58.941+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:33:58.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.913 seconds
+[2026-05-10T05:34:29.116+0000] {processor.py:161} INFO - Started process (PID=732) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:34:29.118+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:34:29.125+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:34:29.124+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:34:30.738+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:34:30.791+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:34:30.791+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:34:30.834+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:34:30.833+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:34:30.886+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.784 seconds
+[2026-05-10T05:35:01.336+0000] {processor.py:161} INFO - Started process (PID=750) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:35:01.341+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:35:01.352+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:35:01.351+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:35:03.329+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:35:03.423+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:35:03.422+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:35:03.492+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:35:03.492+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:35:03.559+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 2.250 seconds
+[2026-05-10T05:35:34.085+0000] {processor.py:161} INFO - Started process (PID=768) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:35:34.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:35:34.100+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:35:34.098+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:35:35.520+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:35:35.582+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:35:35.581+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:35:35.625+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:35:35.624+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:35:35.661+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.620 seconds
+[2026-05-10T05:36:05.959+0000] {processor.py:161} INFO - Started process (PID=786) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:36:05.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:36:05.971+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:36:05.969+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:36:07.799+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:36:07.877+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:36:07.876+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:36:07.929+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:36:07.928+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:36:07.965+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 2.039 seconds
+[2026-05-10T05:36:38.375+0000] {processor.py:161} INFO - Started process (PID=804) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:36:38.377+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:36:38.380+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:36:38.380+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:36:39.600+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:36:39.682+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:36:39.681+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:36:39.789+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:36:39.788+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:36:39.857+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.495 seconds
+[2026-05-10T05:37:10.253+0000] {processor.py:161} INFO - Started process (PID=822) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:37:10.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:37:10.266+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:37:10.264+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:37:11.763+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:37:11.841+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:37:11.841+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:37:11.912+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:37:11.911+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:37:11.964+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.743 seconds
+[2026-05-10T05:37:42.273+0000] {processor.py:161} INFO - Started process (PID=840) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:37:42.277+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:37:42.286+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:37:42.284+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:37:43.758+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:37:43.814+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:37:43.813+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:37:43.874+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:37:43.873+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:37:43.956+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.713 seconds
+[2026-05-10T05:38:14.371+0000] {processor.py:161} INFO - Started process (PID=858) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:38:14.379+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:38:14.388+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:38:14.386+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:38:16.170+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:38:16.240+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:38:16.239+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:38:16.291+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:38:16.290+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:38:16.334+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.993 seconds
+[2026-05-10T05:38:47.501+0000] {processor.py:161} INFO - Started process (PID=876) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:38:47.503+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:38:47.511+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:38:47.510+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:38:48.910+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:38:48.993+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:38:48.992+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:38:49.063+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:38:49.062+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:38:49.144+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.662 seconds
+[2026-05-10T05:39:20.276+0000] {processor.py:161} INFO - Started process (PID=894) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:39:20.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:39:20.290+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:39:20.287+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:39:21.951+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:39:22.013+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:39:22.012+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:39:22.076+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:39:22.075+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:39:22.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.886 seconds
+[2026-05-10T05:39:52.367+0000] {processor.py:161} INFO - Started process (PID=912) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:39:52.373+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:39:52.382+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:39:52.381+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:39:53.945+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:39:54.033+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:39:54.031+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:39:54.119+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:39:54.118+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:39:54.207+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.882 seconds
+[2026-05-10T05:40:25.169+0000] {processor.py:161} INFO - Started process (PID=930) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:40:25.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:40:25.182+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:40:25.180+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:40:26.845+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:40:26.921+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:40:26.920+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:40:26.978+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:40:26.977+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:40:27.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.892 seconds
+[2026-05-10T05:40:57.484+0000] {processor.py:161} INFO - Started process (PID=948) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:40:57.488+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:40:57.497+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:40:57.495+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:40:59.048+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:40:59.186+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:40:59.184+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:40:59.294+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:40:59.293+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:40:59.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.907 seconds
+[2026-05-10T05:41:29.842+0000] {processor.py:161} INFO - Started process (PID=966) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:41:29.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:41:29.855+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:41:29.853+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:41:32.230+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:41:32.331+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:41:32.330+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:41:32.407+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:41:32.407+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:41:32.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 2.659 seconds
+[2026-05-10T05:42:03.097+0000] {processor.py:161} INFO - Started process (PID=984) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:42:03.101+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:42:03.107+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:42:03.106+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:42:04.481+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:42:04.565+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:42:04.564+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:42:04.629+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:42:04.628+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:42:04.683+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.611 seconds
+[2026-05-10T05:42:34.957+0000] {processor.py:161} INFO - Started process (PID=1002) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:42:34.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:42:34.967+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:42:34.966+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:42:36.217+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:42:36.309+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:42:36.307+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:42:36.379+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:42:36.378+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:42:36.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.486 seconds
+[2026-05-10T05:43:06.612+0000] {processor.py:161} INFO - Started process (PID=1020) to work on /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:43:06.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_extract_bcb.py for tasks to queue
+[2026-05-10T05:43:06.624+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:43:06.623+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:43:08.287+0000] {processor.py:840} INFO - DAG(s) 'dag_extract_bcb' retrieved from /opt/airflow/dags/dag_extract_bcb.py
+[2026-05-10T05:43:08.342+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:43:08.341+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-10T05:43:08.384+0000] {logging_mixin.py:188} INFO - [2026-05-10T05:43:08.383+0000] {dag.py:3947} INFO - Setting next_dagrun for dag_extract_bcb to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-10T05:43:08.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_extract_bcb.py took 1.829 seconds

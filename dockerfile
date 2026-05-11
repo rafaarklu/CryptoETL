@@ -1,13 +1,21 @@
-FROM python:3.11-slim
+FROM apache/airflow:2.9.3-python3.11
 
-WORKDIR /app
+USER root
 
-ENV PYTHONDONTWRITEBYTECODE=1
-ENV PYTHONUNBUFFERED=1
+WORKDIR /opt/airflow
 
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+COPY requirements.txt /tmp/requirements.txt
+RUN chown airflow:0 /tmp/requirements.txt
 
-COPY . .
+USER airflow
 
-CMD ["python", "src/main.py"]
+RUN pip install --no-cache-dir -r /tmp/requirements.txt
+
+USER root
+
+COPY . /opt/airflow
+RUN chown -R airflow:0 /opt/airflow
+RUN rm /tmp/requirements.txt
+
+USER airflow
+
