@@ -64,7 +64,12 @@ echo [6/6] Gerando PDF...
 REM Gerar o PDF final
 .\.venv\Scripts\python.exe scripts\generate_relatorio_pdf.py
 echo.
-
+echo [7/7] Iniciando dashboard...
+REM Iniciar o dashboard Streamlit em background
+start cmd /k "streamlit run app/dashboard.py --server.port 8501"
+echo.
+echo Dashboard iniciado em http://localhost:8501
+echo.
 echo =========================================
 echo Fim da execucao
 echo =========================================

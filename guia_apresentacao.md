@@ -39,7 +39,8 @@ Esse script faz, nesta ordem:
 5. executa as DAGs de extração e consolidação;
 6. valida o banco;
 7. roda os testes;
-8. gera o PDF do relatório.
+8. gera o PDF do relatório;
+9. inicia o dashboard Streamlit em uma nova janela.
 
 ## Execução manual detalhada
 
@@ -135,10 +136,14 @@ python -m pytest -q > reports\screenshots\pytest_output.txt 2>&1
 
 ### 11. Abrir o dashboard
 
+⚠️ **Nota:** Se você rodou `apresentacao.bat`, o dashboard já foi iniciado automaticamente em uma nova janela.
+
+Caso contrário, execute manualmente:
+
 Terminal: `cmd`
 
 ```cmd
-docker compose --profile dashboard up --build dashboard
+streamlit run app/dashboard.py --server.port 8501
 ```
 
 Links locais para validação:
@@ -156,15 +161,24 @@ Terminal: `cmd`
 
 ## Ordem ideal na apresentação oral
 
-1. Subir os containers ou mostrar que a stack já está ativa.
-2. Abrir o Airflow em http://localhost:8080 e mostrar as DAGs.
-3. Executar `dag_extract_bcb`.
-4. Executar `dag_extract_coingecko`.
-5. Executar `dag_consolidate`.
-6. Mostrar a validação do PostgreSQL, incluindo `daily_consolidated` e `0` nulos em `dolar_brl`.
-7. Abrir o dashboard em http://localhost:8501.
-8. Mostrar os testes unitários e o arquivo `reports/screenshots/pytest_output.txt`.
-9. Mostrar o relatório em PDF.
+Se usar `apresentacao.bat`:
+
+1. Executar o script de apresentação: `apresentacao.bat`
+2. Aguardar a conclusão de todas as etapas (subida da stack, DAGs, testes, PDF e dashboard).
+3. Abrir o Airflow em http://localhost:8080 para mostrar as DAGs executadas.
+4. Abrir o dashboard em http://localhost:8501 (já estará disponível).
+5. Mostrar a validação do PostgreSQL com `0` nulos em `dolar_brl`.
+6. Mostrar os testes unitários no arquivo `reports/screenshots/pytest_output.txt`.
+7. Mostrar o relatório em PDF.
+
+**Alternativa manual** (se preferir controlar cada etapa):
+
+1. Subir os containers manualmente.
+2. Abrir o Airflow e executar as DAGs na ordem: `dag_extract_bcb` → `dag_extract_coingecko` → `dag_consolidate`.
+3. Validar o banco PostgreSQL.
+4. Executar os testes unitários.
+5. Gerar o PDF.
+6. Iniciar o dashboard manualmente.
 
 ## Evidências e arquivos de apoio
 
