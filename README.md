@@ -2,6 +2,8 @@
 
 Pipeline de dados end-to-end que cruza indicadores econômicos do Banco Central do Brasil com dados do mercado de criptomoedas, permitindo análises de correlação entre variáveis macro e ativos digitais.
 
+**Validação final do projeto:** 19 testes aprovados, 1460 linhas consolidadas e 0 nulos em `dolar_brl`.
+
 ---
 
 ## Sumário
@@ -13,6 +15,7 @@ Pipeline de dados end-to-end que cruza indicadores econômicos do Banco Central 
 - [Estrutura do Banco de Dados](#estrutura-do-banco-de-dados)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Como Executar](#como-executar)
+- [Dashboard](#dashboard)
 - [Análises Previstas](#análises-previstas)
 
 ---
@@ -20,6 +23,8 @@ Pipeline de dados end-to-end que cruza indicadores econômicos do Banco Central 
 ## Visão Geral
 
 O projeto implementa um pipeline ETL orquestrado com Apache Airflow que extrai dados de duas APIs públicas, realiza transformações e consolida tudo em uma tabela analítica diária. O objetivo principal é identificar possíveis relações entre variáveis econômicas brasileiras e o comportamento do mercado cripto.
+
+Na entrega validada, a execução foi demonstrada com evidências reais de Airflow, dashboard, consultas SQL, CSV de contagem, relatório técnico e saída dos testes.
 
 **Exemplos de análises habilitadas pelo pipeline:**
 
@@ -38,7 +43,7 @@ O projeto implementa um pipeline ETL orquestrado com Apache Airflow que extrai d
 | Orquestração | Apache Airflow 2.x |
 | Banco de dados | PostgreSQL 15 |
 | Containerização | Docker + Docker Compose |
-| Bibliotecas principais | `requests`, `pandas`, `psycopg2`, `sqlalchemy` |
+| Bibliotecas principais | `requests`, `pandas`, `psycopg2`, `sqlalchemy`, `streamlit` |
 
 ---
 
@@ -86,6 +91,8 @@ Formato de resposta:
 
 > Cada array retorna pares `[timestamp_unix_ms, valor]`. Para 365 dias, a granularidade é horária (~8760 pontos por ativo).
 
+Na consolidação final, os dados resultam em 365 registros por ativo na tabela analítica.
+
 ---
 
 ## Arquitetura do Pipeline
@@ -130,7 +137,7 @@ Formato de resposta:
 
 ## Estrutura do Banco de Dados
 
-O banco utiliza 3 tabelas no schema `public` do PostgreSQL.
+O banco utiliza 4 tabelas no schema `public` do PostgreSQL.
 
 ### `bcb_indicators`
 Armazena os dados brutos das três séries do BCB. A coluna `indicator` diferencia os registros.
@@ -176,6 +183,21 @@ Tabela principal para análises. Resultado do join e transformação das duas ta
 | `ipca_monthly` | NUMERIC | IPCA do mês (forward fill) |
 | `created_at` | TIMESTAMP | Data/hora da consolidação |
 
+### `pipeline_run_log`
+Armazena o histórico de execuções do pipeline, incluindo DAG, task, origem, status e eventuais erros.
+
+| Coluna | Tipo | Descrição |
+|---|---|---|
+| `id` | SERIAL PK | Identificador |
+| `dag_id` | VARCHAR | DAG executada |
+| `task_id` | VARCHAR | Task executada |
+| `source` | VARCHAR | Origem do dado/pipeline |
+| `status` | VARCHAR | `success` ou `failed` |
+| `rows_inserted` | INT | Quantidade processada |
+| `error_message` | TEXT | Mensagem de erro, quando existir |
+| `started_at` | TIMESTAMP | Início da execução |
+| `finished_at` | TIMESTAMP | Fim da execução |
+
 ---
 
 ## Estrutura do Projeto
@@ -198,6 +220,8 @@ CryptoETL/
 ├── docker-compose.yml
 ├── dockerfile
 ├── requirements.txt
+├── reports/
+│   └── screenshots/
 └── .env.example
 ```
 
@@ -227,6 +251,14 @@ Copie `.env.example` para `.env` e ajuste se precisar.
 docker compose up -d postgres airflow-init airflow-webserver airflow-scheduler
 ```
 
+Alternativa validada para a apresentação:
+
+```cmd
+apresentacao.bat
+```
+
+Esse script sobe a stack, executa as DAGs em ordem, valida o banco, roda os testes e gera o PDF do relatório.
+
 ### 4. Acessar o Airflow
 
 Abra `http://localhost:8080` no navegador.
@@ -252,6 +284,59 @@ Ou, pelo container:
 docker compose --profile tools run --rm etl-cli
 ```
 
+## Dashboard
+
+O projeto inclui um dashboard Streamlit para explorar a tabela `daily_consolidated`.
+
+Para subir a interface:
+
+```bash
+docker compose --profile dashboard up --build dashboard
+```
+
+O dashboard fica disponível em `http://localhost:8501` e mostra:
+
+- KPIs gerais da base consolidada
+- Série histórica de preço em BRL e volatilidade por ativo
+- Resumo comparativo entre os ativos
+- Correlação entre dólar e Bitcoin em BRL
+
+Evidências do dashboard e do Airflow estão salvas em `reports/screenshots/`:
+
+- `dashboard_overview.png`
+- `dashboard_correlation.png`
+- `dashboard_print.png`
+- `airflow_home.png`
+- `airflow_graph.png`
+
+## Qualidade e Testes
+
+O projeto possui validações de qualidade em código para três camadas do pipeline:
+
+- `src/validators/data_quality.py` valida nulos, duplicidades e ranges
+- `src/settings.py` centraliza as regras de validação
+- `tests/test_data_quality.py` cobre os cenários válidos e inválidos
+
+Na execução final validada, a suíte retornou 19 testes aprovados.
+
+Para executar a suíte localmente:
+
+```bash
+python -m pytest -q
+```
+
+Para registrar a evidência da execução:
+
+```bash
+python -m pytest -q > reports/screenshots/pytest_output.txt 2>&1
+```
+
+Artefatos finais de validação:
+
+- `reports/screenshots/pytest_output.txt`
+- `reports/screenshots/db_counts.csv`
+- `reports/screenshots/presentation_text.txt`
+
 ---
 
 ## Análises Previstas
@@ -262,6 +347,21 @@ Com a tabela `daily_consolidated` populada, as principais análises planejadas s
 - **SELIC × Volatilidade cripto** — períodos de juros altos tendem a reduzir exposição a ativos de risco?
 - **IPCA × Mercado cripto** — criptomoedas funcionam como hedge contra inflação no Brasil?
 - **Comparativo entre ativos** — qual dos 4 ativos apresentou maior correlação com os indicadores macro no período?
+
+## Evidências Finais
+
+Os arquivos abaixo documentam a entrega final validada do projeto:
+
+- `RELATORIO_TECNICO.md`
+- `RELATORIO_TECNICO.pdf`
+- `reports/screenshots/pytest_output.txt`
+- `reports/screenshots/db_counts.csv`
+- `reports/screenshots/presentation_text.txt`
+- `reports/screenshots/airflow_home.png`
+- `reports/screenshots/airflow_graph.png`
+- `reports/screenshots/dashboard_overview.png`
+- `reports/screenshots/dashboard_correlation.png`
+- `reports/screenshots/dashboard_print.png`
 
 ## Observações Técnicas
 

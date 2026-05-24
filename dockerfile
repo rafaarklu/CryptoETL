@@ -18,4 +18,3 @@ RUN chown -R airflow:0 /opt/airflow
 RUN rm /tmp/requirements.txt
 
 USER airflow
-
