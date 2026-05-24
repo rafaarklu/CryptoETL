@@ -15,6 +15,7 @@ MARKDOWN_FILE = ROOT / "RELATORIO_TECNICO.md"
 OUTPUT_FILE = ROOT / "RELATORIO_TECNICO.pdf"
 
 
+
 def add_inline_styles(text: str) -> str:
     text = re.sub(r"\[(.*?)\]\((.*?)\)", r"\1", text)
 

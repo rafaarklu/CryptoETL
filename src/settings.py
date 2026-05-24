@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 # Carregar variáveis de ambiente
 load_dotenv()
 
+
 # ===== DATABASE CONFIG =====
 DB_HOST = os.getenv("ETL_DB_HOST", "localhost")
 DB_PORT = int(os.getenv("ETL_DB_PORT", 5432))

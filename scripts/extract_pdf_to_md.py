@@ -11,6 +11,7 @@ PDF_FILE = ROOT / "RELATORIO_TECNICO.pdf"
 OUT_MD = ROOT / "RELATORIO_TECNICO.md"
 
 
+
 def ensure_pdf_reader():
     import importlib
     import importlib.util

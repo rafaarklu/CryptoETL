@@ -5,6 +5,7 @@ pdf_path = Path(r"C:\Users\gustavo.telles\Desktop\CryptoETL\CryptoETL_Apresentac
 out_path = Path(r"C:\Users\gustavo.telles\Desktop\CryptoETL\reports\screenshots\presentation_text.txt")
 out_path.parent.mkdir(parents=True, exist_ok=True)
 
+
 try:
     try:
         from PyPDF2 import PdfReader

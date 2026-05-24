@@ -17,6 +17,7 @@ default_args = {
 }
 
 # Definição da DAG
+
 dag_obj = DAG(
     "dag_extract_bcb",
     default_args=default_args,
