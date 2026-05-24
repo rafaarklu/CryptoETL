@@ -1,7 +1,82 @@
+# Python bytecode and build artifacts
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+build/
+dist/
+site/
+
+# Virtual environments
 .venv/
-.env
+.venv*/
+venv/
+env/
+.python-version
+
+# Test and lint caches
+.nox/
+.tox/
+.hypothesis/
 .pytest_cache/
 .mypy_cache/
+.ruff_cache/
+.cache/
+.benchmarks/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+pytestdebug.log
+
+# Notebook artifacts
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.out
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*.rej
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.envrc
+.secrets/
+
+# Airflow and runtime artifacts
+logs/
+airflow-webserver.pid
+airflow.cfg
+airflow.db
+airflow-db-init/
+*.sqlite
+*.sqlite3
+*.db-journal
+*.pid
+
+# Local output and deliverables
+DELIVERABLE.zip
+*.zip
+reports/screenshots/
+
+# Editor and OS files
+.vscode/
+.vscode-test/
+.idea/
+.history/
+.DS_Store
+Desktop.ini
+Thumbs.db
+
+# Streamlit local state
+.streamlit/secrets.toml
+.streamlit/config.toml
 
