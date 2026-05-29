@@ -7212,3 +7212,13 @@ File Path                                   PID    Runtime      # DAGs    # Erro
 /opt/airflow/dags/dag_extract_coingecko.py                           1           0  1.37s           2026-05-29T20:25:11
 /opt/airflow/dags/dag_consolidate.py                                 1           0  0.87s           2026-05-29T20:25:11
 ================================================================================
+[2026-05-29T20:25:57.138+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_extract_bcb.py                                 1           0  0.95s           2026-05-29T20:25:42
+/opt/airflow/dags/dag_extract_coingecko.py                           1           0  0.90s           2026-05-29T20:25:42
+/opt/airflow/dags/dag_consolidate.py                                 1           0  0.89s           2026-05-29T20:25:42
+================================================================================
