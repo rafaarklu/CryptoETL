@@ -77,15 +77,15 @@ Terminal: `cmd`
 Use a data da execução que você quer simular. Se for amanhã, por exemplo 25/05, troque o valor para `2026-05-25`.
 
 ```cmd
-docker exec -i cryptoetl-airflow-webserver-1 airflow dags test dag_extract_bcb <YYYY-MM-DD>
+docker exec -i cryptoetl-airflow-webserver-1 airflow dags test dag_extract_bcb 2026-05-30
 ```
 
 ```cmd
-docker exec -i cryptoetl-airflow-webserver-1 airflow dags test dag_extract_coingecko <YYYY-MM-DD>
+docker exec -i cryptoetl-airflow-webserver-1 airflow dags test dag_extract_coingecko <2026-05-30>
 ```
 
 ```cmd
-docker exec -i cryptoetl-airflow-webserver-1 airflow dags test dag_consolidate <YYYY-MM-DD>
+docker exec -i cryptoetl-airflow-webserver-1 airflow dags test dag_consolidate <2026-05-30>
 ```
 
 ### 8. Conferir os runs no Airflow
