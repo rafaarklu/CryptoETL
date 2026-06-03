@@ -159,9 +159,10 @@ echo.
 
 echo [6/6] Iniciando dashboard Streamlit...
 REM Iniciar o dashboard em background usando a venv ativada
+start "" .\.venv\Scripts\python.exe -m streamlit run app/dashboard.py
 
 REM Aguardar Streamlit ser iniciado
-timeout /t 5 /nobreak >nul
+timeout /t 10 /nobreak >nul
 echo Aguardando Streamlit iniciar...
 set "STREAMLIT_READY=0"
 set /a STREAMLIT_WAIT=0

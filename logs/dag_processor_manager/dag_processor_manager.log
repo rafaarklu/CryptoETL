@@ -16036,3 +16036,245 @@ File Path                                   PID    Runtime      # DAGs    # Erro
 /opt/airflow/dags/dag_consolidate.py                                 1           0  0.67s           2026-06-03T04:12:45
 /opt/airflow/dags/dag_extract_bcb.py                                 1           0  0.65s           2026-06-03T04:12:44
 ================================================================================
+[2026-06-03T19:34:16.794+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-06-03T19:34:16.795+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-06-03T19:34:16.797+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-06-03T19:34:16.798+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-06-03T19:34:16.868+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-03T19:34:17.499+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_consolidate.py                                 0           0
+/opt/airflow/dags/dag_extract_bcb.py          180  0.49s             0           0
+/opt/airflow/dags/dag_extract_coingecko.py    177  0.52s             0           0
+================================================================================
+[2026-06-03T19:34:48.274+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_extract_coingecko.py                           1           0  3.29s           2026-06-03T19:34:20
+/opt/airflow/dags/dag_extract_bcb.py                                 1           0  3.29s           2026-06-03T19:34:20
+/opt/airflow/dags/dag_consolidate.py                                 1           0  0.81s           2026-06-03T19:34:21
+================================================================================
+[2026-06-03T19:35:18.621+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_extract_coingecko.py                           1           0  0.89s           2026-06-03T19:34:51
+/opt/airflow/dags/dag_extract_bcb.py                                 1           0  0.87s           2026-06-03T19:34:51
+/opt/airflow/dags/dag_consolidate.py                                 1           0  0.70s           2026-06-03T19:34:51
+================================================================================
+[2026-06-03T19:35:49.166+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_consolidate.py                                 1           0  0.70s           2026-06-03T19:35:23
+/opt/airflow/dags/dag_extract_coingecko.py                           1           0  0.68s           2026-06-03T19:35:21
+/opt/airflow/dags/dag_extract_bcb.py                                 1           0  0.66s           2026-06-03T19:35:22
+================================================================================
+[2026-06-03T19:36:19.217+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_consolidate.py                                 1           0  1.52s           2026-06-03T19:35:54
+/opt/airflow/dags/dag_extract_bcb.py                                 1           0  1.24s           2026-06-03T19:35:54
+/opt/airflow/dags/dag_extract_coingecko.py                           1           0  0.83s           2026-06-03T19:35:53
+================================================================================
+[2026-06-03T19:36:49.430+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_extract_coingecko.py                           1           0  0.96s           2026-06-03T19:36:24
+/opt/airflow/dags/dag_consolidate.py                                 1           0  0.93s           2026-06-03T19:36:26
+/opt/airflow/dags/dag_extract_bcb.py                                 1           0  0.64s           2026-06-03T19:36:25
+================================================================================
+[2026-06-03T19:37:19.525+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_consolidate.py                                 1           0  0.74s           2026-06-03T19:36:56
+/opt/airflow/dags/dag_extract_coingecko.py                           1           0  0.70s           2026-06-03T19:36:55
+/opt/airflow/dags/dag_extract_bcb.py                                 1           0  0.65s           2026-06-03T19:36:56
+================================================================================
+[2026-06-03T19:37:49.559+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_extract_coingecko.py                           1           0  1.25s           2026-06-03T19:37:26
+/opt/airflow/dags/dag_consolidate.py                                 1           0  1.06s           2026-06-03T19:37:28
+/opt/airflow/dags/dag_extract_bcb.py                                 1           0  1.03s           2026-06-03T19:37:27
+================================================================================
+[2026-06-03T19:38:19.721+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_consolidate.py                                 1           0  0.73s           2026-06-03T19:37:59
+/opt/airflow/dags/dag_extract_coingecko.py                           1           0  0.72s           2026-06-03T19:37:57
+/opt/airflow/dags/dag_extract_bcb.py                                 1           0  0.66s           2026-06-03T19:37:58
+================================================================================
+[2026-06-03T19:38:49.831+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_extract_bcb.py                                 1           0  0.81s           2026-06-03T19:38:29
+/opt/airflow/dags/dag_consolidate.py                                 1           0  0.81s           2026-06-03T19:38:29
+/opt/airflow/dags/dag_extract_coingecko.py                           1           0  0.73s           2026-06-03T19:38:28
+================================================================================
+[2026-06-03T19:39:16.806+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-06-03T19:39:16.857+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-03T19:39:19.912+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_extract_bcb.py                                 1           0  0.73s           2026-06-03T19:39:00
+/opt/airflow/dags/dag_consolidate.py                                 1           0  0.67s           2026-06-03T19:39:00
+/opt/airflow/dags/dag_extract_coingecko.py                           1           0  0.65s           2026-06-03T19:38:58
+================================================================================
+[2026-06-03T19:39:50.058+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_extract_bcb.py                                 1           0  0.74s           2026-06-03T19:39:31
+/opt/airflow/dags/dag_consolidate.py                                 1           0  0.64s           2026-06-03T19:39:31
+/opt/airflow/dags/dag_extract_coingecko.py                           1           0  0.63s           2026-06-03T19:39:29
+================================================================================
+[2026-06-03T19:40:20.201+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_extract_bcb.py                                 1           0  0.72s           2026-06-03T19:40:02
+/opt/airflow/dags/dag_consolidate.py                                 1           0  0.69s           2026-06-03T19:40:02
+/opt/airflow/dags/dag_extract_coingecko.py                           1           0  0.65s           2026-06-03T19:40:00
+================================================================================
+[2026-06-03T19:40:50.515+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_extract_bcb.py                                 1           0  0.81s           2026-06-03T19:40:33
+/opt/airflow/dags/dag_consolidate.py                                 1           0  0.78s           2026-06-03T19:40:33
+/opt/airflow/dags/dag_extract_coingecko.py                           1           0  0.72s           2026-06-03T19:40:32
+================================================================================
+[2026-06-03T19:41:21.191+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_extract_coingecko.py                           1           0  1.11s           2026-06-03T19:41:03
+/opt/airflow/dags/dag_extract_bcb.py                                 1           0  0.87s           2026-06-03T19:41:05
+/opt/airflow/dags/dag_consolidate.py                                 1           0  0.85s           2026-06-03T19:41:05
+================================================================================
+[2026-06-03T19:42:44.296+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-06-03T19:42:44.298+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-06-03T19:42:44.300+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-06-03T19:42:44.302+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-06-03T19:42:44.380+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2026-06-03T19:42:45.063+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_consolidate.py                                 0           0
+/opt/airflow/dags/dag_extract_bcb.py          180  0.47s             0           0
+/opt/airflow/dags/dag_extract_coingecko.py    177  0.51s             0           0
+================================================================================
+[2026-06-03T19:43:15.843+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_extract_coingecko.py                           1           0  3.04s           2026-06-03T19:42:47
+/opt/airflow/dags/dag_extract_bcb.py                                 1           0  2.97s           2026-06-03T19:42:47
+/opt/airflow/dags/dag_consolidate.py                                 1           0  1.03s           2026-06-03T19:42:48
+================================================================================
+[2026-06-03T19:43:46.117+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_extract_bcb.py                                 1           0  1.18s           2026-06-03T19:43:19
+/opt/airflow/dags/dag_extract_coingecko.py                           1           0  1.18s           2026-06-03T19:43:19
+/opt/airflow/dags/dag_consolidate.py                                 1           0  0.78s           2026-06-03T19:43:19
+================================================================================
+[2026-06-03T19:44:16.261+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_extract_bcb.py                                 1           0  0.84s           2026-06-03T19:43:50
+/opt/airflow/dags/dag_extract_coingecko.py                           1           0  0.83s           2026-06-03T19:43:49
+/opt/airflow/dags/dag_consolidate.py                                 1           0  0.71s           2026-06-03T19:43:50
+================================================================================
+[2026-06-03T19:44:46.284+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_extract_coingecko.py                           1           0  0.73s           2026-06-03T19:44:20
+/opt/airflow/dags/dag_extract_bcb.py                                 1           0  0.73s           2026-06-03T19:44:21
+/opt/airflow/dags/dag_consolidate.py                                 1           0  0.70s           2026-06-03T19:44:21
+================================================================================
+[2026-06-03T19:45:16.352+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_extract_coingecko.py                           1           0  1.15s           2026-06-03T19:44:52
+/opt/airflow/dags/dag_extract_bcb.py                                 1           0  1.09s           2026-06-03T19:44:52
+/opt/airflow/dags/dag_consolidate.py                                 1           0  0.65s           2026-06-03T19:44:53
+================================================================================
+[2026-06-03T19:45:46.728+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_extract_bcb.py                                 1           0  0.69s           2026-06-03T19:45:23
+/opt/airflow/dags/dag_extract_coingecko.py                           1           0  0.69s           2026-06-03T19:45:23
+/opt/airflow/dags/dag_consolidate.py                                 1           0  0.64s           2026-06-03T19:45:24
+================================================================================
+[2026-06-03T19:46:16.781+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_extract_bcb.py                                 1           0  1.62s           2026-06-03T19:45:55
+/opt/airflow/dags/dag_extract_coingecko.py                           1           0  1.62s           2026-06-03T19:45:55
+/opt/airflow/dags/dag_consolidate.py                                 1           0  1.15s           2026-06-03T19:45:56
+================================================================================
