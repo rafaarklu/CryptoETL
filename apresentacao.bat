@@ -110,7 +110,6 @@ if %errorlevel%==0 (
     set "AIRFLOW_READY=1"
 ) else (
     if %AIRFLOW_WAIT% GEQ 90 (
-        echo Aviso: Airflow nao respondeu apos %AIRFLOW_WAIT%s, mas container esta rodando. Continuando...
         set "AIRFLOW_READY=1"
     ) else (
         if %AIRFLOW_WAIT% GEQ 0 (
@@ -122,6 +121,9 @@ if %errorlevel%==0 (
     )
 )
 echo [OK] Airflow webserver pronto ^(%AIRFLOW_WAIT%s^).
+echo.
+echo Abrindo Airflow no navegador...
+start "" "http://localhost:8080"
 echo.
 REM Aguardar um pouco mais para garantir que Airflow esta 100% pronto
 timeout /t 5 /nobreak >nul
@@ -158,8 +160,8 @@ echo [OK] Evidencias geradas.
 echo.
 
 echo [6/6] Iniciando dashboard Streamlit...
-REM Iniciar o dashboard em background usando a venv ativada
-start "" .\.venv\Scripts\python.exe -m streamlit run app/dashboard.py
+REM Iniciar o dashboard em background sem abrir terminal
+start /b "" .\.venv\Scripts\python.exe -m streamlit run app/dashboard.py --logger.level=error >nul 2>&1
 
 REM Aguardar Streamlit ser iniciado
 timeout /t 10 /nobreak >nul
@@ -186,43 +188,12 @@ if %errorlevel%==0 (
 echo [OK] Streamlit dashboard pronto ^(%STREAMLIT_WAIT%s^).
 echo.
 
-echo Capturando screenshot do dashboard...
-.\.venv\Scripts\python.exe scripts\capture_screenshots.py
-echo [OK] Screenshot do dashboard capturado.
-echo.
-
 echo =========================================
 echo SUCESSO - SERVICOS INICIADOS E RODANDO
 echo =========================================
 echo.
-echo Abrindo Airflow no navegador... (aguarde...)
-start "" "http://localhost:8080"
-timeout /t 3 /nobreak >nul
-echo Abrindo Dashboard no navegador... (aguarde...)
-start "" "http://localhost:8501"
-echo.
 echo Airflow:  http://localhost:8080  (credenciais: airflow/airflow)
 echo Dashboard: http://localhost:8501
-echo.
-echo =========================================
-echo CAPTURANDO EVIDENCIAS
-echo =========================================
-echo.
-echo [1/2] AIRFLOW - Faca login com: airflow/airflow
-echo Pressione ENTER quando tiver feito login e estiver pronto para capturar os prints...
-pause >nul
-echo.
-echo  Capturando screenshots das DAGs do Airflow...
-.\.venv\Scripts\python.exe scripts\capture_screenshots.py airflow
-echo.
-echo [2/2] DASHBOARD - Capturando em 25 segundos...
-echo Nao feche o terminal durante a captura!
-echo.
-.\.venv\Scripts\python.exe scripts\capture_screenshots.py dashboard
-echo.
-echo =========================================
-echo EVIDENCIAS CAPTURADAS COM SUCESSO!
-echo =========================================
 echo.
 echo ^*^*^* OS SERVICOS CONTINUARAO RODANDO ^*^*^*
 echo.
